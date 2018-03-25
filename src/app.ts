@@ -1,4 +1,4 @@
-import { LeakyBucketAlgorithm } from './leaky-bucket-algoritm';
+import { LeakyBucketAlgorithm } from './leaky-bucket-algorithm';
 
 const leakyBucketAlgorithm: LeakyBucketAlgorithm = new LeakyBucketAlgorithm(200, 10);
 

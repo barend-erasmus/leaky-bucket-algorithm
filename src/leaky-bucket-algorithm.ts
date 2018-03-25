@@ -1,6 +1,7 @@
 export class LeakyBucketAlgorithm {
 
     private numberOfDrops: number = 0;
+
     private timestampOfLastDropLeak: Date = new Date(-8640000000000000);
 
     constructor(
